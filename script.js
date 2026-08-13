@@ -27,3 +27,21 @@ if (!prefersReduced && 'IntersectionObserver' in window) {
     setTimeout(() => document.querySelectorAll('.reveal:not(.in)').forEach(el => el.classList.add('in')), 800);
   });
 }
+
+// Mobile/Desktop view toggle — forces layout via container query width,
+// independent of the visitor's actual screen size.
+const siteFrame = document.getElementById('siteFrame');
+const viewToggle = document.getElementById('viewToggle');
+if (siteFrame && viewToggle) {
+  viewToggle.addEventListener('click', () => {
+    if (siteFrame.classList.contains('force-mobile')) {
+      siteFrame.classList.remove('force-mobile');
+      siteFrame.classList.add('force-desktop');
+      viewToggle.textContent = 'Switch to Mobile View';
+    } else {
+      siteFrame.classList.remove('force-desktop');
+      siteFrame.classList.add('force-mobile');
+      viewToggle.textContent = 'Switch to Desktop View';
+    }
+  });
+}
