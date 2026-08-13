@@ -355,9 +355,7 @@ section { padding: 88px 0; }
 /* ---------- Commercial awareness ---------- */
 .market-grid {
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 48px;
-  align-items: start;
+  grid-template-columns: 1fr;
 }
 .market-list { list-style: none; margin: 0; padding: 0; }
 .market-list li {
