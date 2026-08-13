@@ -48,9 +48,9 @@
 }
 .view-toggle {
   position: fixed;
-  bottom: 20px;
+  top: 82px;
   right: 20px;
-  z-index: 200;
+  z-index: 40;
   background: var(--ink);
   color: var(--chalk);
   font-family: var(--mono);
