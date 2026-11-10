@@ -1,6 +1,6 @@
 # Bryce Gilmore — Portfolio
 
-A personal portfolio site built for the Market-Facing Portfolio final project, targeting roles in sports business and analytics.
+A personal portfolio site targeting roles in sports business and analytics.
 
 **Live site:** https://brycegilmore.github.io/portfolio/
 
